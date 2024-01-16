@@ -132,6 +132,40 @@ option {
   height: 30px;
   margin: 10px 0px 30px 20px;
 }
+/* header complete */
+.populer-tours-section {
+  display: flex;
+  margin: 40px 0;
+}
+.populer-tuours-text {
+  padding: 0 50px;
+  margin: 40px 0;
+  width: 540px;
+  height: 550px;
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.populer-tuours-text h1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+.populer-tuours-text button{
+  width: 174px;
+height: 52px;
+border: 0;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 800;
+}
 
 /* for mobile */
 @media screen and (max-width: 600px) {
@@ -141,23 +175,35 @@ option {
   }
   .nav {
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .search-section {
     flex-direction: column;
-    height: 100%;
+    height: 100px;
   }
   .banner h1 {
     text-align: center;
     color: #fff;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 800;
   }
   .banner p {
     width: 304px;
+    font-size: 14px;
   }
   .banner {
-    width: 335px;
-    height: 342px;
+    width: 540px;
+    height: 550px;
+    background-repeat: no-repeat;
+  }
+  .populer-tours-section {
+    margin-top:50px ;
+    display: grid;
+   flex-direction: column;
+  
+  }
+  .populer-tuours-text{
+    margin-bottom: -120px;
   }
 }
