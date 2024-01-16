@@ -1,0 +1,163 @@
+/* shared style */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Merriweather:wght@400;900&family=Mulish:wght@400;800&display=swap");
+
+/* shared style */
+* {
+  font-family: "Mulish", sans-serif;
+}
+/* all font */
+body {
+  margin-left: 7%;
+  width: 1170px;
+}
+/* header satart */
+.nav {
+  width: 100%;
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+span {
+  color: #ff5400;
+}
+.icon {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+.icon {
+  height: 50px;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+.nav li {
+  margin-right: 20px;
+  color: var(--Dark-02, #424247);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* banner */
+.banner {
+  width: 100%;
+  height: 500px;
+  border-radius: 16px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("Images/image1.png");
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 8%;
+}
+.banner p {
+  width: 676px;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  padding-left: 20%;
+
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.where-go {
+  width: 174px;
+  height: 52px;
+  border: 0;
+  border-radius: 8px;
+  background: #fff;
+}
+.when {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+}
+.select-type {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+}
+.search-section {
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  margin-left: 18%;
+}
+
+.find {
+  width: 174px;
+  height: 52px;
+  display: flex;
+  border-radius: 8px;
+  background: #ff5400;
+}
+option {
+  color: #fff;
+  text-align: center;
+  margin-left: 10px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+}
+.find p {
+  color: #fff;
+  text-align: center;
+  margin-left: -40px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+}
+.find img {
+  width: 30px;
+  height: 30px;
+  margin: 10px 0px 30px 20px;
+}
+
+/* for mobile */
+@media screen and (max-width: 600px) {
+  body {
+    will-change: 600px;
+    margin: 0;
+  }
+  .nav {
+    flex-direction: column;
+  }
+
+  .search-section {
+    flex-direction: column;
+    height: 100%;
+  }
+  .banner h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .banner p {
+    width: 304px;
+  }
+  .banner {
+    width: 335px;
+    height: 342px;
+  }
+}
