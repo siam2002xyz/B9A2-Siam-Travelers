@@ -363,10 +363,10 @@ option {
   background-repeat: no-repeat;
   width: 100%;
 }
-.discount-card > h1, h2{
+.discount-card > h1,
+h2 {
   color: #fff;
   text-align: center;
-
 }
 .discount-card {
   width: 324px;
@@ -379,6 +379,35 @@ option {
   bottom: 60px;
 }
 /* footer */
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  width: 1170px;
+  height: 500px;
+  border-radius: 20px;
+}
+footer .icon {
+  margin: 300px 40% 50px 40%;
+  padding-top: 70px;
+}
+.icon h2 {
+  color: black;
+}
+footer p {
+  color: #5a5a5d;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 769px;
+  margin-left: 20%;
+}
+.social {
+  margin: 50px 40% 5px;
+}
+
+.social img {
+  margin-left: 22px;
+}
 
 /* for mobile */
 @media screen and (max-width: 600px) {
@@ -469,5 +498,26 @@ option {
     margin-left: 0;
     margin-top: 9px;
   }
+  footer {
+    background: rgba(19, 19, 24, 0.05);
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+  }
+  footer p {
+    
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 287px;
+    margin-left: 30%;
+  }
+  .social {
+    margin: 50px 30% 5px 40%;
+  }
   
+  .social img {
+    margin-left: 5px;
+  }
 }
