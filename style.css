@@ -310,9 +310,75 @@ option {
   gap: 15px;
 }
 .service3 {
-  margin-left: 30%;
+  margin-left: 26%;
   margin-top: 9px;
 }
+/* choose section done */
+.newsleter-section {
+  width: 474px;
+  height: 422px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+}
+.newsleter-section p {
+  margin: 5px 30px 30px 30px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 350px;
+}
+.newsleter-section h2 {
+  margin: 40px 30px 20px 30px;
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.newsleter-section input {
+  width: 80%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin: 5px 20px;
+}
+.newsleter-section button {
+  width: 80%;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+/* newsleter end */
+.sub-discount-section {
+  display: flex;
+  width: 1170px;
+  gap: 8px;
+  position: relative;
+}
+.discount-section {
+  background-image: url(Images/image9.png);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.discount-card > h1, h2{
+  color: #fff;
+  text-align: center;
+
+}
+.discount-card {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  position: absolute;
+  left: 60%;
+  bottom: 60px;
+}
+/* footer */
 
 /* for mobile */
 @media screen and (max-width: 600px) {
@@ -403,4 +469,5 @@ option {
     margin-left: 0;
     margin-top: 9px;
   }
+  
 }
